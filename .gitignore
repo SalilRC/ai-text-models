@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# --- Virtual Environment ---
+.venv/
+env/
+venv/
+ENV/
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- OS/System files ---
+.DS_Store
+Thumbs.db
+
+# --- Hugging Face / Transformers cache ---
+cache/
+datasets/
+models/
+checkpoints/
+huggingface/
+*.bin
+
+# --- Logs and temporary files ---
+*.log
+logs/
+*.tmp
+*.swp
+
+# --- Node / Gradio (if frontend assets generated) ---
+node_modules/
+dist/
+build/
